@@ -1,0 +1,121 @@
+body, html {
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+  }
+body{background-color: rgb(252, 229, 233);
+    background-image:url(https://media1.popsugar-assets.com/files/thumbor/QiIzNtM4_qGjr6prd1uG671AcPs/1457x0:4457x3000/fit-in/2048xorig/filters:format_auto-!!-:strip_icc-!!-/2023/03/31/723/n/1922507/ee38c468642708b69fa5a5.64828975_/i/Free-Spring-Desktop-Wallpapers.jpg);
+}
+
+#image {position:relative ;
+    top: 50px;
+    left: 350px;
+    width: 300px;
+    height: 300px;
+    outline: 10px;
+    border-radius: 150px;
+    outline-style: ridge;
+    outline-color: #90b67eb0;
+}
+.image-strip {
+    position: fixed;
+    top: 0;
+    right: 50px;
+    width: 200px;
+    height: 100vh;
+    background-image: url(imagenbanner.jpg);
+    background-size: cover;
+    background-position: center;
+  }
+  .transparency {
+    position:  absolute;
+    border-radius: 30px;
+    top: 373px;
+    left: 20px;
+    width: 950px;
+    height: 1610px;
+    background-color: rgb(242, 253, 225);
+    opacity: 0.5;
+  }
+h1 {
+    color:white;
+    outline: 5px;
+    outline-style:double;
+    outline-color: pink;
+    position: relative;
+    top: 50px;
+    left: 380px;
+    border: 2px solid pink;
+    width:fit-content;
+    border-radius: 500px;
+    padding: 10px;
+    background-color: pink;
+}
+p {position: relative;
+left: 100px;
+}
+
+ul a {
+    color:green;
+    background-color: rgb(252, 209, 216);
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+}
+
+h2 {
+    position: relative;
+    left: 100px;
+    color: white;
+    border-radius: 5px;
+    background-color: #90b67eb0;
+    width: fit-content;
+    }
+h3 {
+    color: rgb(36, 29, 29);
+    position: relative;
+    left: 120px;
+}
+table {
+    position: relative;
+    left: 50px;
+    
+}
+table thead {
+    background-color: pink;
+    color: white;
+}
+table tbody {
+    background-color: #9bbd8b69 ;
+    color: rgb(92, 92, 92);
+}
+
+ul li{
+    position: relative;
+    left: 50px;
+    color: rgb(92, 92, 92);
+}
+p {
+    color: rgb(92, 92, 92);
+}
+p.title {
+    font-weight: bold;
+    text-decoration: underline;
+}
+th.dark {
+    background-color: rgb(253, 175, 188) ;
+}
+td.dark {
+    background-color:#9bbd8b69 ;
+}
+
+span.highlight {
+    text-decoration: underline;
+    font-weight: bold;
+    color: rgb(238, 168, 180);
+}
+
+h2#perfiles{
+    color: rgb(214, 124, 154);
+    background-color: pink;
+    border-style: inset;
+    border-color: rgb(248, 152, 184);
+}
